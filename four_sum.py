@@ -7,7 +7,6 @@ class Solution:
 
     def fourSum(self, nums, target):
         def ksum(l, r, target, N, result, results):
-            print(result)
             if r-l+1 < N or N < 2 or target < nums[l]*N or target > nums[r]*N:  # early termination
                 return
             if N == 2: # two pointers solve sorted 2-sum problem
