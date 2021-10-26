@@ -90,9 +90,9 @@ def generate_permutations_dups(A):
 
 
 def main():
-    # A = [1, 2, 3]
-    # print(generate_permutations(A))
-    # print(generate_permutations_1(A))
+    A = [1, 2, 3]
+    print(generate_permutations(A))
+    print(generate_permutations_1(A))
 
     A = [2, 2, 0, 3]
     print(generate_permutations_dups(A))
